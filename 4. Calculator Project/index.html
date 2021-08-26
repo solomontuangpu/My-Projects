@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/">
+    
+    
+</head>
+<body>
+
+    <table>
+        <tbody>
+            <tr>
+                <td class="display-box previous-operand" colspan="4">
+                 
+                </td>
+            </tr>
+            <tr>
+                <td class="display-box current-operand" colspan="4">0</td>
+            </tr>
+            <tr>
+                <td onclick="allClear()" class="btn btn-top">AC</td>
+                <td onclick="clearLast()" class="btn btn-top">C</td>
+                <td onclick="showDisplay('%')" class="btn btn-top">&#37;</td>
+                <td onclick="showDisplay('/')" class="btn btn-fourth">&#247;</td>
+            </tr>
+            <tr>
+                <td onclick="showDisplay(9)" class="btn btn-number">9</td>
+                <td onclick="showDisplay(8)" class="btn btn-number">8</td>
+                <td onclick="showDisplay(7)" class="btn btn-number">7</td>
+                <td onclick="showDisplay('*')" class="btn btn-fourth">&#215;</td>
+            </tr>
+            <tr>
+                <td onclick="showDisplay(6)" class="btn btn-number">6</td>
+                <td onclick="showDisplay(5)" class="btn btn-number">5</td>
+                <td onclick="showDisplay(4)" class="btn btn-number">4</td>
+                <td onclick="showDisplay('-')" class="btn btn-fourth">&#8722;</td>
+            </tr>
+            <tr>
+                <td onclick="showDisplay(3)" class="btn btn-number">3</td>
+                <td onclick="showDisplay(2)" class="btn btn-number" >2</td>
+                <td onclick="showDisplay(1)" class="btn btn-number">1</td>
+                <td onclick="showDisplay('+')" class="btn btn-fourth">&#43;</td>
+            </tr>
+            <tr> 
+                <td onclick="showDisplay(0)" colspan="2" class="btn btn-number btn-span">0</td>
+                <td onclick="showDisplay('.')" class="btn btn-number">.</td>
+                <td onclick="calculate()" class="btn btn-fourth">&#61;</td>
+            </tr>
+        </tbody>
+    </table>
+
+    
+
+    <script src="JS/" defer> </script>
+</body>
+</html>

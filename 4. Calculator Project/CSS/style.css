@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: black;
+    border-collapse: separate;
+    border-spacing: 7px;
+}
+.display-box{
+    text-align: right;
+    
+}
+.previous-operand{
+    color:  #d4d4d2a9;
+    height: 4rem;
+    font-size: 2rem;
+}
+.current-operand{
+    color: #D4D4D2;
+    font-size: 3rem;
+    height: 5rem;
+}
+.btn{
+    color: #D4D4D2;
+    font-size: 1.5rem;   
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+}
+.btn-top{
+    background-color: #505050;
+}
+.btn-top:active{
+    background-color:  #1C1C1C;
+}
+.btn-number{
+    background-color: #1C1C1C;
+}
+.btn-number:active{
+    background-color: #505050;
+}
+.btn-fourth{
+    background-color: #FF9500;
+}
+.btn-fourth:active{
+    background-color: #b16502;
+}
+.btn-span{
+    border-radius: 2.5rem;
+}
+
